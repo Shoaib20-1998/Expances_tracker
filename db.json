@@ -1,9 +1,41 @@
 {
     "users": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
+        {
+            "id": 1,
+            "FullName": "Shoaib mansuri",
+            "Email": "Shoaib@gmail.com",
+            "Password": "12345"
+        },
+        {
+            "id": 2,
+            "FullName": "Tanuja mansuri",
+            "Email": "Tanuja@gmail.com",
+            "Password": "12345"
+        },
+        {
+            "id": 3,
+            "FullName": "Soniya mansuri",
+            "Email": "Soniya@gmail.com",
+            "Password": "12345"
+        }
     ],
     "tracker": [
-      { "id": 1, "body": "some comment", "postId": 1 }
+        {
+            "id": 1,
+            "income": "salary",
+            "expense": "Shopping",
+            "amount":"500",
+            "date":"5/06/2023"
+        },
+        {
+            "id": 2,
+            "income": "Gifts",
+            "expense": "Bills",
+            "amount":"700",
+            "date":"4/06/2023"
+        }
     ],
-    "profile": { "name": "typicode" }
-  }
+    "profile": {
+        "name": "typicode"
+    }
+}
